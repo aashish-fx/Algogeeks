@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Algogeeks/static/css/main.07ad5707.chunk.css",
+    "main.js": "/Algogeeks/static/js/main.a21c1347.chunk.js",
+    "main.js.map": "/Algogeeks/static/js/main.a21c1347.chunk.js.map",
+    "runtime-main.js": "/Algogeeks/static/js/runtime-main.ab205765.js",
+    "runtime-main.js.map": "/Algogeeks/static/js/runtime-main.ab205765.js.map",
+    "static/js/2.60fdae8f.chunk.js": "/Algogeeks/static/js/2.60fdae8f.chunk.js",
+    "static/js/2.60fdae8f.chunk.js.map": "/Algogeeks/static/js/2.60fdae8f.chunk.js.map",
+    "static/js/3.8e5cc6c8.chunk.js": "/Algogeeks/static/js/3.8e5cc6c8.chunk.js",
+    "static/js/3.8e5cc6c8.chunk.js.map": "/Algogeeks/static/js/3.8e5cc6c8.chunk.js.map",
+    "index.html": "/Algogeeks/index.html",
+    "static/css/main.07ad5707.chunk.css.map": "/Algogeeks/static/css/main.07ad5707.chunk.css.map",
+    "static/js/2.60fdae8f.chunk.js.LICENSE.txt": "/Algogeeks/static/js/2.60fdae8f.chunk.js.LICENSE.txt",
+    "static/media/screencapture.9d345438.mp4": "/Algogeeks/static/media/screencapture.9d345438.mp4",
+    "static/media/screencapture1.b54dbfa2.mp4": "/Algogeeks/static/media/screencapture1.b54dbfa2.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab205765.js",
+    "static/js/2.60fdae8f.chunk.js",
+    "static/css/main.07ad5707.chunk.css",
+    "static/js/main.a21c1347.chunk.js"
+  ]
+}
