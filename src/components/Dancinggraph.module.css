@@ -1,0 +1,116 @@
+.svganimation{
+    position: absolute;
+    max-width: 30vw;
+    padding: 0.1vh 0 0 55vw;
+    animation: bgcolor 3s infinite alternate;
+    /* overflow: hidden; */
+}
+.svganimation svg{
+    width: 32vw;
+    margin-top: 8vw;
+    margin-left: 8vw;
+}
+.hand1, .hand2,.Body,.head{
+    animation: bounce 1s infinite ease-out alternate;
+    
+}
+@keyframes bounce{
+    0%{
+        transform: translateY(-5px);
+        transform: translateX(5px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+.ball{
+    animation: bounce1 1s infinite ease-out alternate;
+    
+}
+@keyframes bounce1{
+    0%{
+        transform: translate3d(-30px,-60px,-20px);
+    
+    }
+    
+}
+.lines {
+    animation: updown 1s infinite ease-out alternate;
+    
+}
+@keyframes updown {
+     0%{
+         transform: translate3d(-10px,-10px,-10px);
+     }
+}
+.ball-lines{
+    animation: updown1 1s infinite ease-out alternate;
+    
+}
+@keyframes updown1 {
+    0%{
+        transform: translate3d(-12px,-12px,-12px);
+    }
+}
+
+.Path-1495{
+    animation: vibrate 2s infinite ease-in alternate;
+    
+}
+@keyframes vibrate{
+    0%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.Path-1496{
+    animation: vibrate1 1s infinite ease-in alternate;
+    
+}
+@keyframes vibrate1{
+    0%{
+        transform: translateY(-25px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.Path-1513{
+    animation: vibrate2 1.2s infinite ease-in-out alternate;
+    
+}
+@keyframes vibrate2{
+    0%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.Path-1514{
+    animation: vibrate3 2.1s infinite ease-in-out alternate;
+    
+}
+@keyframes vibrate3{
+    0%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.Path-1515{
+    animation: vibrate4 2.1s infinite ease-in-out alternate;
+    
+}
+@keyframes vibrate4{
+    0%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(0);
+        
+    }
+}

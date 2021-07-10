@@ -1,0 +1,157 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.first,.second{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+}
+.first{
+    background-color: rgb(243, 145, 194);
+    margin-top: -65px;
+    
+}
+.second{
+    background-color: rgb(133, 161, 240);
+    margin-top: -65px;
+}
+.sci{
+    position: relative;
+    display: flex;
+    list-style: none;
+    
+    color:cadetblue;
+}
+.sci li::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 50%;
+    left:50%;
+    font-size: 14vw;
+    pointer-events: none;
+    transform: translate(-50%,calc(-50% + 120px));
+    text-align: center;
+    opacity: 0;
+    font-weight: 700;
+    transition: 0.5s;
+    
+
+}
+.sci li:hover::before{
+    opacity: 0.2;
+    color: black;
+    transform: translate(-50%,calc(-50% + 150px));
+}
+.sci li a{
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#fff;
+    color: #333;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 40px;
+    font-size: 4em;
+    box-shadow: 0 25px 35px rgba(0, 0, 0, 0.1);
+    transition: background 0.50s;
+}
+.linkedin:hover{
+    background: linear-gradient(100deg,transparent,#0357f4);
+    animation: move 3s ease-out infinite;
+}
+@keyframes move{
+    0%{
+        transform: translateY(5px);
+        transform: rotateY(50deg);
+    }
+    
+    
+    100%{
+        transform: translateY(-10px);
+        transform: rotateY(-50deg);
+    }
+}
+.linkedin{
+    background: linear-gradient(100deg,transparent,#03e9f4);
+}
+.github{
+    background: linear-gradient(100deg,transparent,#03f498);
+}
+.resume{
+    background: linear-gradient(100deg,transparent,#f40390);
+}
+.github:hover{
+    background: linear-gradient(100deg,transparent,#47f403);
+    animation: move 3s ease-out infinite;
+}
+.resume:hover{
+    background: linear-gradient(100deg,transparent,#f42703);
+    animation: move 3s ease-out infinite;
+}
+.sci li a .fa{
+    transition: 0.25s;
+    pointer-events: none;
+}
+
+.name, .name1{
+    text-align: center;
+    font-size: 50px;
+    opacity: 0.4;    
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.name span{
+    top: 20px;
+}
+
+.span1{
+    margin-top: 20vw;
+    position: relative;
+    text-align: center;
+}
+.upper{
+    
+    height:70px;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    
+    background: linear-gradient(45deg,rgb(137, 106, 221) 32%,#5b83cc 77%);
+    box-shadow: 0 20px 25px rgba(0,0,0,0.05);
+}
+.upper span{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    
+    cursor: pointer;
+    
+}
+.upper :nth-child(2){
+    margin-right: 5vw;
+    
+}
+.link_access{
+    text-decoration: none;
+    color: #0b0c0b;
+    
+}
+.link_access:hover{
+    font-size: 40px;
+    font-family: cursive;
+}

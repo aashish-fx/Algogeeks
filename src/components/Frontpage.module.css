@@ -1,0 +1,26 @@
+.first{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    width: 100%;
+
+}
+.container{
+    min-height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap:wrap;
+    overflow: hidden;
+    background:linear-gradient(45deg,rgb(162, 142, 216) 32%,#91aad8 77%);
+    margin-top: 10vh;
+}
+.next{
+    background: linear-gradient(150deg,rgb(210, 205, 223) 18%,#95afdb 77%); 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  

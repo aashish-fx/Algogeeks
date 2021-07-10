@@ -1,0 +1,134 @@
+.whole{
+    
+    background: linear-gradient(
+        329deg
+        ,#b978b9 18%,#cba8df 77%);   
+    height: 100%;
+    
+}
+.list{
+    margin: 0 auto;
+    height: 145vh;
+    min-width: 100%;
+    margin-top: 2px;
+    
+    text-align: center;
+    background: linear-gradient(
+329deg
+,#b978b9 18%,#cba8df 77%);
+
+}
+body::-webkit-scrollbar {
+    width: 1em;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(121, 221, 224);
+
+    border-radius: 10px;
+  }
+.block{
+  
+    background-color: rgb(64, 219, 224);
+    color: #4564a3;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 0 2px;
+    
+    transition-duration: 150ms;
+    transition-property: height;
+    transition-timing-function: ease-in;
+}
+.para{
+    margin-top: 50px;
+    display: flex;
+    background-color: rgb(205, 170, 233);
+    color: #0f0d0f;    
+    font-size: 20px;
+    margin-left: 310px;
+    font-family: cursive;
+    width: 1000px;
+    border-radius: 5px;
+    
+    text-align: center; 
+    height: auto;   
+    box-shadow: 4px 4px 12px #744c4c;
+    
+}
+.q{
+    font-weight: bold;
+    width: 100%;
+    font-size: 25px;
+    padding:10px;
+    overflow: hidden;
+    
+    
+}
+
+.p{
+    display: flex;
+    top: 200px;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10px;
+    
+    
+}
+.list1{
+    font-weight: lighter;
+    font-size: 20px;
+    margin: 0;
+    list-style: none;
+   
+}
+.complexity{
+    font-weight: lighter;
+}
+.complexity span{
+    color:rgb(117, 68, 230);
+    
+}
+@media(max-width:1200px){
+    .para,.q{
+        text-align: center;
+        flex-direction: column;
+        
+        align-items: center;
+        height:90vh;
+        width:600px;
+        
+    }
+    .para{
+        align-items: center;
+        justify-content: center;
+        margin-left:200px;
+        
+    }
+    .whole{
+        height:169vh;
+        flex-direction: column;
+
+    }
+}
+.button{
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #d6d3d8;
+    margin-left: 6vw;
+}
+
+.button span{
+    padding: 20px;
+    color: #4564a3;
+    font-size: 30px;
+    cursor: pointer;
+    font-family: cursive;
+    border-radius: 10px;
+}

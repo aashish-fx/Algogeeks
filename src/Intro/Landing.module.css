@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+    
+}
+.banner{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    
+    overflow: hidden;
+}
+.container1{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+   background-image: url("Screenshot (130).png");
+   
+}
+
+.scene{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+.text{
+    position: absolute;
+    display: flex !important;
+    position: relative;
+    font-size: 10vw;
+    z-index: 100;
+    color: #dbe3ea;
+    margin-left: 70px;
+    text-align: center;
+}
+
+.text span{
+    position: relative !important;
+    display: inline-block;
+    font-family: cursive;
+    text-shadow: 3px 3px 0 #d4d1d1, 25px 35px 0 rgba(0,0,0,0.1);
+    
+}
+
+.text :nth-child(1){
+      color: #ffd300;
+      animation: moving 2s infinite ease-in alternate;
+      cursor: pointer;
+}
+@keyframes moving{
+    0%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translatex(-10px);
+    }
+}
+.text :nth-child(2){
+    color:  #de38c8;
+    animation: moving1 2s infinite ease-in alternate;
+    cursor: pointer;
+}
+@keyframes moving1{
+    0%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translatex(-10px);
+    }
+}
+.text :nth-child(3){
+    color: #8b5fda;
+    animation: moving2 2s infinite ease-in alternate;
+    cursor: pointer;
+}
+@keyframes moving2{
+    0%{
+        transform: translateX(-20px);
+    }
+    100%{
+        transform: translateY(20px);
+    }
+}
+.text :nth-child(4){
+    color: #286586;
+    animation: moving1 2s infinite ease-in alternate;
+    cursor: pointer;
+}
+@keyframes moving1{
+    0%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translatex(-10px);
+    }
+}
+.text :nth-child(5){
+    color: #d3f6db;
+    animation: moving2 2s infinite ease-in alternate;
+    cursor: pointer;
+}
+.text :nth-child(6){
+    color: #eb9486;
+    animation: moving1 2s infinite ease-in alternate;
+    cursor: pointer;
+}
+.text :nth-child(7){
+    color: #4faeda;
+    animation: moving2 2s infinite ease-in alternate;
+    cursor: pointer;
+}
+.text :nth-child(8){
+    color: #5fdaab;
+    animation: moving1 2s infinite ease-in alternate;
+    cursor: pointer;
+}
+.text :nth-child(9){
+    color: #cc5fda;
+    animation: moving2 2s infinite ease-in alternate;
+    cursor: pointer;
+}
